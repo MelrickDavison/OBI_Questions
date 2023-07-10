@@ -29,16 +29,17 @@ var i = 0;
 scanf("%d", "index");
 
 while(i < index){
-    scanf("%f%d", "bits", "gramas")
+    scanf("%f%d", "bits", "gramas");
 
-    valorAtual = (bits * 1000)/gramas
+    valorAtual = (bits * 1000)/gramas;
     if(i == 0){
-        menorValor = valorAtual
+        menorValor = valorAtual;
       }
     if(valorAtual < menorValor){
         menorValor = valorAtual;
     }
-    i++
+    i++;
 }
 
-printf("%.2f\n", menorValor)
+printf("%.2f\n", menorValor);
+
