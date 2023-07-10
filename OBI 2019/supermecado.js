@@ -41,4 +41,4 @@ while(i < index){
     i++
 }
 
-printf("%d", menorValor)
+printf("%d.2f\n", menorValor)
