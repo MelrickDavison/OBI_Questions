@@ -24,13 +24,17 @@
 // }
 // final de cabeçalho
 
-var index, bits, gramas, valorAtual, menorValor;
+var index, bits, gramas, valorAtual, menorValor  = null ;
 var i = 0;
 scanf("%d", "index");
 
 while(i < index){
     scanf("%d %d", "bits", "gramas")
+
     valorAtual = (bits * 1000)/gramas
+    if(i == 0){
+        menorValor = valorAtual
+      }
     if(valorAtual < menorValor){
         menorValor = valorAtual;
     }
