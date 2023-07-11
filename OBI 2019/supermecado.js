@@ -28,7 +28,7 @@ var index, bits, gramas, valorAtual, menorValor  = null ;
 var i = 0;
 scanf("%d", "index");
 
-while(i < index){
+for(let i = 0; i < index; i++){
     scanf("%f%d", "bits", "gramas");
 
     valorAtual = (bits * 1000)/gramas;
@@ -38,7 +38,7 @@ while(i < index){
     if(valorAtual < menorValor){
         menorValor = valorAtual;
     }
-    i++;
+
 }
 
 printf("%.2f\n", menorValor);
