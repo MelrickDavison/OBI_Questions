@@ -28,7 +28,7 @@ var index, bits, gramas, valorAtual, menorValor;
 
 scanf("%d", "index");
 
-while(index != 0)
+while(index != 0){
     scanf("%f%d", "bits", "gramas");
 
     valorAtual = (bits * 1000)/gramas;
